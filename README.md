@@ -1,11 +1,17 @@
-# Finding trends in seasonality, weekly/daily search traffic, stock correlations, and future search projections 
+# Data Mining Search Trends : MercadoLibre Case Study 
 
-<img src="./images/MercadoLibre.svg" alt="MercadoLibre logo" width=33% class="center"/>
-
+<div class="row">
+  <div class="column">
+    <img src="./images/MercadoLibre.svg" alt="MercadoLibre logo"/>
+    </div>
+  <div class="column">
+    <img src="./images/MercadoLibre Search Analysis_heat_map.png" alt="Heat Map of MercadoLibre Search Traffic"/>
+    </div>
+</div>
 
 > Data-mining MercadoLibre Google Search Trends and stock performance to find seasonal patterns, weekly trends, correlations, and future projections using Facebook Prophet.
 
-<img src="./images/MercadoLibre Search Analysis_heat_map.png" alt="Heat Map of MercadoLibre Search Traffic" width=100% class="center"/>
+
 
 ---
 ## Technologies
