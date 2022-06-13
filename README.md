@@ -2,12 +2,11 @@
 
 <div class="row">
   <div class="column">
-    <img src="./images/MercadoLibre.svg" alt="MercadoLibre logo"/>
-    </div>
-  <div class="column">
-    <img src="./images/MercadoLibre Search Analysis_heat_map.png" alt="Heat Map of MercadoLibre Search Traffic"/>
+    <img src="./images/MercadoLibre.svg" alt="MercadoLibre logo"/ width=20% class='padding'>  
+    <img src="./images/MercadoLibre Search Analysis_heat_map.png" alt="Heat Map of MercadoLibre Search Traffic" width=70%/ class='padding'>
     </div>
 </div>
+
 
 > Data-mining MercadoLibre Google Search Trends and stock performance to find seasonal patterns, weekly trends, correlations, and future projections using Facebook Prophet.
 
@@ -50,7 +49,8 @@ import numpy as np
 %matplotlib inline
 ```
 
-The resource data files also need to be uploaded to the runtime environment.  These uploads are performed in cell blocks ```[4]``` and ```[37]```.  After running each of these cells, you must select the 'Choose Files' button, which appears below the cell after running (See Below):
+The resource data files also need to be uploaded to the runtime environment.  These uploads are performed in cell blocks ```[4]``` and ```[37]```.  After running each of these cells, you must select the 'Choose Files' button, which appears below the cell after running:
+
 <img src="./images/file_upload.png" alt="Uploading Files from Google Collab" width="33%"/>.
 
 From your local repository, select ```google_hourly_search_trends.csv``` for cell block ```[4]``` and select ```mercado_stock_price.csv``` for cell block ```[37]```.
